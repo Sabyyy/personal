@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Resume</title>
+		<link rel="stylesheet" href="style.css"/>
+		<link href="bootstrap.min.css" rel="stylesheet">
+		<script src="jquery-1.7.2.min.js"></script>
+		<script>
+		$(document).ready(function(){
+				$('#header').animate({opacity:'show'}, 1000, function(){
+					$('#resume_content').animate({right:"+=50", opacity: 'show'}, 500);
+				});
+
+			});
+
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Resume and Relevant Work</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="resume_content">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<div id="education">
+							<h3>Education</h3>
+								<p>School: Tufts University (Medford, MA)</p>
+								<p>GPA: 3.52 - Dean's List</p>
+								<p>Major: Computer Science</p>
+								<p>Graduation Year: 2018</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div id="skills">
+							<h3>Programming Skills</h3>
+								<p>C++</p>
+								<p>HTML5</p>
+								<p>CSS</p>
+								<p>JavaScript</p>
+								<p>Node/Express JS</p>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div id="coursework">
+					<div class="row">
+						<div class="col-md-12">
+							<div id="course_head">
+								<h3>Coursework and Related Work</h3>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div id="classes">
+								<h3>Classes:</h3>
+								<ul>
+									<li><h4>Introduction to Computer Science:</h4><p>C++ fundamentals. Created program to scan large text files for word counts.</p></li>
+									<li><h4>Data Structures:</h4><p>Data structures in C++ including Stacks, Queues, Trees, Hash Tables, Graphs, and their applications; various sorting algorithms, such as Bubble Sort, Quicksort, and Selection Sort. </p></li>
+									<li><h4>Web Programming</h4><p>HTML5, CSS, JavaScript (and jQuery); frameworks such as Node/Express JS; databases such as MongoDB; collaboration tools Git and Github.</p></li>
+									<li><h4>Discrete Mathematics</h4><p>Sets, relations, functions, logic and methods of proof, combinatorics, graphs and digraphs.</p></li>
+									<li><h4>Machine Structure and Assembly Language Progrmaming</h4><p>Enrolled for Spring Semester</p></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div id="projects">
+							<div id="projects_head">
+								<h3>Projects and Portfolio:</h3>
+							</div>
+								<ul>
+									<li><h4>Data Structures:</h4><p>Created fully playable online <a href="https://www.eecs.tufts.edu/~mcarri01/bog15/"/>"Boggle"</p></a></li>
+									<li><h4>Web Programming:</h4><p> Github repository for Web Programming assignments and additional projects available <a href="https://github.com/mcarri01/"/> here</p></a><p>Assignments include a "Map Chat" client- and server-side web application with users' geolocation utilizing Node/Express JS and MongoDB. Assessed security and privacy vulnerabilities of peers' application.</p><p>In addition, I will soon include a repository for our class group project, in which we created basic website that allows users to create mash-ups of their favorite songs as a DJ.</p><p>Lastly, there is my final project for Japanese 003 in which I created a Tokyo Travel Guide <a href="https://mcarri01.github.io/japanese/"/>website</p></a> </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+			</div>
+		</div>
+	</body>
+</html>

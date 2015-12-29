@@ -1,0 +1,105 @@
+#top {
+	text-align: center;
+	border: solid;
+	border-color: gray;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	background-color: #9dbcca;
+	display: none;
+}
+#header{
+	text-align: center;
+	padding-top:-20px;
+	margin-top:-20px;
+	padding-bottom:5px;
+	margin-bottom:-10px;
+	background-color: #9dbcca;
+	border: solid;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	display: none;
+
+}
+#footer{
+	border-color: gray;
+}
+#education{
+	text-align: center;
+	height:160px;
+	line-height:15px;
+	background-color: #f1f9ff;
+}
+#skills {
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	height:160px;
+	line-height:15px;
+	background-color: #f1f9ff;
+	
+}
+#main_content{
+	height: 400px;
+	border: solid;
+	border-color: gray;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	height: 400px;
+	display: none;
+	background-color: #f1f9ff;
+}
+#main_footer{
+	text-align: center;
+	background-color:  #9dbcca;
+	height:140px;
+	line-height: 13px;
+	display: none;
+}
+#resume{
+	text-align: center;
+	padding-top: 75px;
+	margin-top:75px;
+}
+#biography{
+	text-align: center;
+	padding-top: 75px;
+	margin-top:75px;
+}
+#course_head{
+	text-align: center;
+	margin-bottom: -10px;
+	border: solid;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	background-color: #9dbcca;
+}
+#projects_head{
+	text-align: right;
+	background-color: #f1f9ff;
+
+}
+#projects{
+	background-color: #f1f9ff;
+	height: 350px;
+}
+#coursework{
+	line-height:18px;
+}
+#about{
+
+}
+#employment{
+	line-height:13px;
+}
+#link{
+	padding-bottom: -10px;
+	margin-bottom: -10px;
+}
+#resume_content{
+	display: none;
+}
+#classes{
+	background-color: #f1f9ff;
+}

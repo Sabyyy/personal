@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Personal Website</title>
+		<link rel="stylesheet" href="style.css"/>
+		<link href="bootstrap.min.css" rel="stylesheet">
+		<script src="jquery-1.7.2.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#top').animate({opacity:'show'}, 1000, function(){
+					$('#main_content').animate({right:"+=50", opacity: 'show'}, 1000);
+					$('#main_footer').animate({right:"+=50", opacity: 'show'}, 1000);
+				});
+
+			});
+		</script>
+	</head>
+	<body>
+		<div id="top">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Matthew Carrington-Fair</h1>
+						<h3>Computer Science Undergraduate</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="main_content">
+			<div class="container-fluid">
+				<div class="row">
+					<div id="about">
+						<div class="col-md-6">
+							<h3>About me</h3>
+							<p>I was born in Vienna, Austria and have lived abroad for the majority of life due to my parents' work. As a result, I have lived in countries such as Brazil, Portugal, and Ecuador. Currently a sophomore at Tufts University, I am a Computer Science major looking for internship opportunities to expand my programming skills.</p>
+							<h3>Resume</h3>
+							<p>Current <a href="resume.html"/>resume</a><h4></p>
+						</div>
+					</div>
+					<div id="employment">
+						<div class="col-md-6">
+							<h3>Employment history</h3>
+								<ul>
+									<li><h4>Tufts University Dining Services</h4><p> - Medford, MA, 2014-2015, 2015-2016 academic years</p><p>Part-time barista</p></li>
+									<li><h4>Tufts Conferences and Events Services</h4><p> - Summer 2015</p><p>Summer facilitator for various programs and conferences on campus</p></li>
+									<li><h4>Sweetgreen</h4><p> - Washington, DC, October 2013- August 2014</p><p>Worked as line chef at local salad restaurant</p></li>
+									<li><h4>U.S. Embassy</h4><p> - Quito, Ecuador, Summer 2012</p><p> Summer hire in the Embassy's Consular Section; handled and disposed of sensitive documents.</p></li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="main_footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<p>Contact:</p>
+						<p>Email: matthew.carrington_fair@tufts.edu</p>
+						<p>Mobile: (571)-422-0228
+						<p>Current Address: 126 Packard Ave, Medford, MA 02155</p>
+						<p>Permanent Address: 10159 Red Spruce Road, Fairfax, VA 22032</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
